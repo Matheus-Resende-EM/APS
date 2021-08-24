@@ -51,6 +51,18 @@ namespace APS
             }
         }
 
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            picImagem1.Image = null;
+            picImagem2.Image = null;
+            pgbarBarraDeProgresso.Value = 0;
+        }
+
+        private void btnEncerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         bool flag = true;
 
         public Form1()

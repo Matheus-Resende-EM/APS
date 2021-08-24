@@ -106,6 +106,7 @@ namespace APS
             this.btnLimpar.TabIndex = 6;
             this.btnLimpar.Text = "Limpar ";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnEncerrar
             // 
@@ -115,6 +116,7 @@ namespace APS
             this.btnEncerrar.TabIndex = 7;
             this.btnEncerrar.Text = "Encerrar";
             this.btnEncerrar.UseVisualStyleBackColor = true;
+            this.btnEncerrar.Click += new System.EventHandler(this.btnEncerrar_Click);
             // 
             // ofd2
             // 
