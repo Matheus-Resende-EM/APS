@@ -1,0 +1,10 @@
+C:\C#\APS\APS\bin\Debug\APS.exe.config
+C:\C#\APS\APS\bin\Debug\APS.exe
+C:\C#\APS\APS\bin\Debug\APS.pdb
+C:\C#\APS\APS\obj\Debug\APS.csproj.AssemblyReference.cache
+C:\C#\APS\APS\obj\Debug\APS.Form1.resources
+C:\C#\APS\APS\obj\Debug\APS.Properties.Resources.resources
+C:\C#\APS\APS\obj\Debug\APS.csproj.GenerateResource.cache
+C:\C#\APS\APS\obj\Debug\APS.csproj.CoreCompileInputs.cache
+C:\C#\APS\APS\obj\Debug\APS.exe
+C:\C#\APS\APS\obj\Debug\APS.pdb
