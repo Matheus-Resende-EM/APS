@@ -8,3 +8,9 @@ C:\C#\APS\APS\obj\Debug\APS.csproj.GenerateResource.cache
 C:\C#\APS\APS\obj\Debug\APS.csproj.CoreCompileInputs.cache
 C:\C#\APS\APS\obj\Debug\APS.exe
 C:\C#\APS\APS\obj\Debug\APS.pdb
+C:\C#\APS\APS\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\C#\APS\APS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\C#\APS\APS\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\C#\APS\APS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\C#\APS\APS\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\C#\APS\APS\obj\Debug\APS.csproj.CopyComplete

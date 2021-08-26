@@ -46,7 +46,7 @@ namespace APS
             // linkPrimeiraImagem
             // 
             this.linkPrimeiraImagem.AutoSize = true;
-            this.linkPrimeiraImagem.Location = new System.Drawing.Point(32, 67);
+            this.linkPrimeiraImagem.Location = new System.Drawing.Point(9, 9);
             this.linkPrimeiraImagem.Name = "linkPrimeiraImagem";
             this.linkPrimeiraImagem.Size = new System.Drawing.Size(141, 13);
             this.linkPrimeiraImagem.TabIndex = 0;
@@ -57,7 +57,7 @@ namespace APS
             // linkSegundaImagem
             // 
             this.linkSegundaImagem.AutoSize = true;
-            this.linkSegundaImagem.Location = new System.Drawing.Point(350, 67);
+            this.linkSegundaImagem.Location = new System.Drawing.Point(298, 9);
             this.linkSegundaImagem.Name = "linkSegundaImagem";
             this.linkSegundaImagem.Size = new System.Drawing.Size(146, 13);
             this.linkSegundaImagem.TabIndex = 1;
@@ -67,30 +67,32 @@ namespace APS
             // 
             // picImagem1
             // 
-            this.picImagem1.Location = new System.Drawing.Point(35, 83);
+            this.picImagem1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picImagem1.Location = new System.Drawing.Point(11, 25);
             this.picImagem1.Name = "picImagem1";
-            this.picImagem1.Size = new System.Drawing.Size(244, 232);
+            this.picImagem1.Size = new System.Drawing.Size(281, 290);
             this.picImagem1.TabIndex = 2;
             this.picImagem1.TabStop = false;
             // 
             // picImagem2
             // 
-            this.picImagem2.Location = new System.Drawing.Point(353, 83);
+            this.picImagem2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.picImagem2.Location = new System.Drawing.Point(301, 25);
             this.picImagem2.Name = "picImagem2";
-            this.picImagem2.Size = new System.Drawing.Size(230, 232);
+            this.picImagem2.Size = new System.Drawing.Size(292, 290);
             this.picImagem2.TabIndex = 3;
             this.picImagem2.TabStop = false;
             // 
             // pgbarBarraDeProgresso
             // 
-            this.pgbarBarraDeProgresso.Location = new System.Drawing.Point(182, 321);
+            this.pgbarBarraDeProgresso.Location = new System.Drawing.Point(484, 321);
             this.pgbarBarraDeProgresso.Name = "pgbarBarraDeProgresso";
-            this.pgbarBarraDeProgresso.Size = new System.Drawing.Size(269, 23);
+            this.pgbarBarraDeProgresso.Size = new System.Drawing.Size(109, 13);
             this.pgbarBarraDeProgresso.TabIndex = 4;
             // 
             // btnCampararImagens
             // 
-            this.btnCampararImagens.Location = new System.Drawing.Point(59, 381);
+            this.btnCampararImagens.Location = new System.Drawing.Point(12, 332);
             this.btnCampararImagens.Name = "btnCampararImagens";
             this.btnCampararImagens.Size = new System.Drawing.Size(166, 40);
             this.btnCampararImagens.TabIndex = 5;
@@ -100,9 +102,9 @@ namespace APS
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(256, 390);
+            this.btnLimpar.Location = new System.Drawing.Point(184, 349);
             this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(109, 23);
+            this.btnLimpar.Size = new System.Drawing.Size(76, 23);
             this.btnLimpar.TabIndex = 6;
             this.btnLimpar.Text = "Limpar ";
             this.btnLimpar.UseVisualStyleBackColor = true;
@@ -110,9 +112,9 @@ namespace APS
             // 
             // btnEncerrar
             // 
-            this.btnEncerrar.Location = new System.Drawing.Point(376, 390);
+            this.btnEncerrar.Location = new System.Drawing.Point(266, 349);
             this.btnEncerrar.Name = "btnEncerrar";
-            this.btnEncerrar.Size = new System.Drawing.Size(111, 23);
+            this.btnEncerrar.Size = new System.Drawing.Size(73, 23);
             this.btnEncerrar.TabIndex = 7;
             this.btnEncerrar.Text = "Encerrar";
             this.btnEncerrar.UseVisualStyleBackColor = true;
@@ -126,7 +128,8 @@ namespace APS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(605, 450);
+            this.BackColor = System.Drawing.Color.MistyRose;
+            this.ClientSize = new System.Drawing.Size(605, 383);
             this.Controls.Add(this.btnEncerrar);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnCampararImagens);
@@ -135,7 +138,9 @@ namespace APS
             this.Controls.Add(this.picImagem1);
             this.Controls.Add(this.linkSegundaImagem);
             this.Controls.Add(this.linkPrimeiraImagem);
+            this.MaximizeBox = false;
             this.Name = "Form1";
+            this.ShowInTaskbar = false;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picImagem1)).EndInit();
